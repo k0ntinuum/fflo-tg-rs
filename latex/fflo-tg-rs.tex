@@ -1,0 +1,37 @@
+
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{ mathrsfs }
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[margin=0.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{ulem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\usepackage{hyperref}
+\usepackage[autostyle]{csquotes}
+
+\usepackage{cancel}
+\renewcommand{\i}{\textit}
+\renewcommand{\b}{\textbf}
+\newcommand{\q}{\enquote}
+%\vskip1.0in
+
+
+
+\begin{document}
+
+
+{\setstretch{0.0}{
+fflo [ textgraphics ]
+
+\b{Fflo} displays the evolution of a continuous cellular automaton which is itself randomly evolving. What appears as a rectangular grid is computationally a torus, featuring both vertical and horizontal wrapping. 
+
+This \q{textgraphics} version is very much a simplified version of the original, more interactive and higher-resolution version. I wanted a version that I could compile to WebAssembly and run in the console with Wasmtime. This is the result.
+
+}}
+
+\end{document}
